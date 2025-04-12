@@ -1,6 +1,6 @@
 let textbox = document.getElementById("input");
 let imagecontainer = document.getElementById("imagecontainer");
-let notes = ["A#Bb3", "A#Bb4", "A#Bb5", "A4", "A5", "B3", "B4", "B5", "C#Db4", "C#Db5", "C#Db6", "C4", "C5", "C6", "D#Eb4", "D#Eb5", "D#Eb6", "D4", "D5", "D6", "E4", "E5", "E6", "F#Gb4", "F#Gb5", "F4", "F5", "F6", "G#Ab4", "G#Ab5", "G4", "G5"];
+let notes = ["Bb3", "Bb4", "Bb5", "A4", "A5", "B3", "B4", "B5", "Db4", "Db5", "Db6", "C4", "C5", "C6", "Eb4", "Eb5", "Eb6", "D4", "D5", "D6", "E4", "E5", "E6", "Gb4", "Gb5", "F4", "F5", "F6", "Ab4", "Ab5", "G4", "G5"];
 
 function match() {
 
