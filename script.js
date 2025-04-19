@@ -5,6 +5,7 @@ let notes = ["Bb3", "Bb4", "Bb5", "A4", "A5", "B3", "B4", "B5", "Db4", "Db5", "D
 function match() {
 
     if (!isValid(textbox.value)) {
+        window.alert("\""+textbox.value+"\" is not a valid note.");
         return;
     }
 
@@ -21,4 +22,8 @@ function isValid(note) {
         }
     }
     return false;
+}
+
+function clearImage() {
+    imagecontainer.innerHTML = "";
 }
